@@ -13,7 +13,6 @@ html, body {
 }
 
 /* Navbar */
-/* Navbar */
 .navbar {
     background-color: #004052;
   }
@@ -49,8 +48,26 @@ html, body {
     padding: 60px 20px;
     flex-grow: 1; /* Garante que a seção ocupe o espaço restante */
 }
-
-/* Footer */
+/* Botão personalizado no Hero Section */
+.btn-custom {
+    background-color: #00607a; /* Cor de destaque da paleta */
+    color: #f9f6ee; /* Contraste adequado para o texto */
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Suave sombra */
+  }
+  
+  .btn-custom:hover {
+    background-color: #005066; /* Cor levemente mais escura no hover */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada */
+    color: #f9f6ee; /* Garante contraste no hover */
+  }
+  
 /* Footer */
 .footer {
     background-color: #00303d;
@@ -68,7 +85,6 @@ html, body {
   
   .footer a:hover {
     color: #00607a;
-    text-decoration: underline;
   }
   
   /* Ícones das redes sociais */
