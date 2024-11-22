@@ -109,4 +109,11 @@ html, body {
     text-decoration: underline;
     color: #00607a;
   }
+
+/* Logo da FAB */
+.logo-fab {
+    height: 40px; /* Define a altura do logo */
+    width: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Garante que o logo seja exibido corretamente */
+  }
   
