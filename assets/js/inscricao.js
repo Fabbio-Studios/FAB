@@ -9,6 +9,6 @@ document.getElementById('inscricaoForm').addEventListener('submit', function(eve
     // Após o clique no botão de confirmação, redireciona o usuário para a área do candidato
     document.getElementById('redirectButton').addEventListener('click', function() {
         // Substitua 'area_do_candidato.html' pela URL real da área do candidato
-        window.location.href = '/area_do_candidato.html';
+        window.location.href = 'login.html';
     });
 });
