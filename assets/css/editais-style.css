@@ -51,3 +51,69 @@
     color: #f9f6ee;
     border-color: #005066;
 }
+
+/* Botão de busca (lupa) */
+.btn-search {
+    background-color: #004052;
+    color: #f9f6ee;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-search:hover {
+    background-color: #005066;
+    transform: scale(1.05);
+}
+
+/* Botão de reset (limpar filtros) */
+.btn-reset {
+    background-color: #00607a;
+    color: #f9f6ee;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-reset:hover {
+    background-color: #005066;
+    transform: scale(1.05);
+}
+
+/* Ajuste de tamanho dos ícones */
+.btn-search i,
+.btn-reset i {
+  font-size: 1.2rem;
+}
+
+/* Botão de inscrição */
+.btn-inscricao {
+  background-color: #00607a;
+  color: #f9f6ee;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.btn-inscricao:hover {
+  background-color: #005066;
+  transform: scale(1.05);
+}
+
+/* Badges de status */
+.badge {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
