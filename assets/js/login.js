@@ -6,9 +6,9 @@ function loginSubmit(event) {
     const senha = document.getElementById("senha").value;
   
     // Exemplo simples de verificação (pode ser adaptado para algo mais seguro).
-    if (email === "teste@exemplo.com" && senha === "12345") {
+    if (email === "josias@exemplo.com" && senha === "12345") {
       // Redireciona para a página da Área do Candidato após o login bem-sucedido.
-      window.location.href = "area_candidato.html";
+      window.location.href = "area-candidato.html";
     } else {
       alert("Credenciais inválidas! Tente novamente.");
     }
