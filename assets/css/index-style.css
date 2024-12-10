@@ -134,4 +134,12 @@ html, body {
     width: auto; /* Mantém a proporção da imagem */
     object-fit: contain; /* Garante que o logo seja exibido corretamente */
   }
-  
+
+
+/* Seção de erro */
+.error-section {
+  background-color: #f9f6ee; /* Cor de fundo padrão */
+  color: #002029; /* Texto com contraste */
+  text-align: center;
+  padding: 60px 20px;
+}
